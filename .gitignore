@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS and editors
+.DS_Store
+.vscode/
+
+# Model artifacts and datasets (review before uploading)
+data/
+models/*.pkl
